@@ -35,7 +35,7 @@
 Install FunKitPy from PyPI using pip:
 
 ```bash
-pip install funkitpy
+pip install FunKitPy
 ```
 
 Requires Python 3.8 or higher.

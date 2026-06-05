@@ -10,3 +10,6 @@ with open(DATA / "roasts.json", encoding="utf-8") as f:
 
 def roast() -> str:
     return random.choice(ROASTS)["roast"]
+
+def get_roast():
+    return roast()

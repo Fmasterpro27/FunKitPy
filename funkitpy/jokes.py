@@ -13,5 +13,11 @@ with open(DATA / "dad_jokes.json", encoding="utf-8") as f:
 def joke() -> str:
     return random.choice(JOKES)["joke"]
 
+def get_joke():
+    return joke()
+
 def dad_joke() -> str:
     return random.choice(DAD_JOKES)["joke"]
+
+def get_dad_joke():
+    return dad_joke()
