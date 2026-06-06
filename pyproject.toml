@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "FunKitPy"
-version = "0.1.1"
+version = "0.2.0"
 description = "A lightweight Python toolkit for fetching and generating jokes, dad jokes, and roasts."
 readme = "README.md"
 license = "Apache-2.0"
@@ -15,9 +15,15 @@ keywords = ["jokes", "dad-jokes", "roasts", "fun"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
 ]
+
+[project.scripts]
+funkit = "funkitpy.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/fmasterpro27/FunKitPy"
