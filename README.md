@@ -1,6 +1,6 @@
 # FunKitPy
 
-> A lightweight Python library for jokes, dad jokes, and roasts — bring the laughs to your Python projects.
+> A lightweight Python library and CLI for jokes, dad jokes, and roasts.
 
 [![PyPI version](https://img.shields.io/pypi/v/funkitpy.svg)](https://pypi.org/project/funkitpy/)
 [![Python versions](https://img.shields.io/pypi/pyversions/funkitpy.svg)](https://pypi.org/project/funkitpy/)
@@ -8,143 +8,149 @@
 
 ---
 
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Usage](#usage)
-- [API Reference](#api-reference)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
 ## Features
 
-- 🎭 **Random Jokes** — Fetch a random joke from a curated collection
-- 👨 **Dad Jokes** — Classic, groan-worthy dad jokes on demand
-- 🔥 **Roasts** — Playful roasts for light-hearted banter
-- 📦 **Zero dependencies** — Pure Python, no external packages required
-- ⚡ **Fast & lightweight** — All data is bundled locally, no network calls needed
+- 🎭 Random jokes
+- 👨 Dad jokes
+- 🔥 Roasts
+- 💻 Command Line Interface (CLI)
+- 📦 Zero dependencies
+- ⚡ Fast & lightweight
+- 🐍 Python 3.8+
 
 ---
 
 ## Installation
 
-Install FunKitPy from PyPI using pip:
-
 ```bash
 pip install FunKitPy
 ```
-
-Requires Python 3.8 or higher.
 
 ---
 
 ## Quick Start
 
 ```python
-from funkitpy import get_joke, get_dad_joke, get_roast
+from funkitpy import joke, dad_joke, roast
 
-# Get a random joke
-print(get_joke())
-
-# Get a dad joke
-print(get_dad_joke())
-
-# Get a roast
-print(get_roast())
+print(joke())
+print(dad_joke())
+print(roast())
 ```
 
 ---
 
-## Usage
+## Python API
 
-### Random Jokes
+### Random Joke
 
 ```python
-from funkitpy import get_joke
+from funkitpy import joke
 
-joke = get_joke()
-print(joke)
-# Output: "Why don't scientists trust atoms? Because they make up everything!"
+print(joke())
 ```
 
-### Dad Jokes
+### Dad Joke
 
 ```python
-from funkitpy import get_dad_joke
+from funkitpy import dad_joke
 
-joke = get_dad_joke()
-print(joke)
-# Output: "I'm reading a book about anti-gravity. It's impossible to put down."
+print(dad_joke())
 ```
 
-### Roasts
+### Roast
 
 ```python
-from funkitpy import get_roast
+from funkitpy import roast
 
-roast = get_roast()
-print(roast)
-# Output: "I'd roast you, but my mom said I'm not allowed to burn trash."
+print(roast())
 ```
 
 ---
 
-## API Reference
+## Compatibility Aliases
 
-### `get_joke() -> str`
-
-Returns a random joke from the built-in collection.
+The following aliases are also available:
 
 ```python
 from funkitpy import get_joke
-
-joke = get_joke()  # str
-```
-
-### `get_dad_joke() -> str`
-
-Returns a random dad joke.
-
-```python
 from funkitpy import get_dad_joke
-
-joke = get_dad_joke()  # str
+from funkitpy import get_roast
 ```
 
-### `get_roast() -> str`
-
-Returns a random playful roast.
+These functions behave exactly the same as:
 
 ```python
-from funkitpy import get_roast
+joke()
+dad_joke()
+roast()
+```
 
-roast = get_roast()  # str
+---
+
+## Command Line Interface
+
+FunKitPy includes a built-in CLI.
+
+### Random Joke
+
+```bash
+funkit joke
+```
+
+### Dad Joke
+
+```bash
+funkit dad-joke
+```
+
+### Roast
+
+```bash
+funkit roast
+```
+
+### Show Version
+
+```bash
+funkit -v
+funkit -V
+funkit --version
+```
+
+### Show Commands
+
+```bash
+funkit commands
+```
+
+---
+
+## Example Output
+
+```text
+Why don't scientists trust atoms?
+Because they make up everything.
 ```
 
 ---
 
 ## Project Structure
 
-```
+```text
 funkitpy/
 ├── funkitpy/
 │   ├── __init__.py
 │   ├── jokes.py
-│   ├── dad_jokes.py
 │   ├── roasts.py
+│   ├── cli.py
+│   ├── version.py
 │   └── data/
 │       ├── jokes.json
 │       ├── dad_jokes.json
 │       └── roasts.json
 ├── tests/
-│   ├── test_jokes.py
-│   └── test_roasts.py
 ├── pyproject.toml
-├── demo.py
 ├── LICENSE
 └── README.md
 ```
@@ -153,26 +159,28 @@ funkitpy/
 
 ## Contributing
 
-Contributions are welcome! Whether it's adding new jokes, fixing bugs, or improving the docs — all help is appreciated.
+Contributions, bug reports, and feature requests are welcome.
 
 1. Fork the repository
-2. Create a new branch (`git checkout -b feature/add-puns`)
-3. Commit your changes (`git commit -m 'Add pun support'`)
-4. Push to your branch (`git push origin feature/add-puns`)
-5. Open a Pull Request
-
-Please make sure your code passes any existing tests before submitting.
+2. Create a branch
+3. Make your changes
+4. Submit a pull request
 
 ---
 
 ## Links
 
-- **Homepage:** [github.com/fmasterpro27/FunKitPy](https://github.com/fmasterpro27/FunKitPy)
-- **Issues:** [github.com/fmasterpro27/FunKitPy/issues](https://github.com/fmasterpro27/FunKitPy/issues)
-- **PyPI:** [pypi.org/project/funkitpy](https://pypi.org/project/funkitpy/)
+Homepage:
+https://github.com/fmasterpro27/FunKitPy
+
+Issues:
+https://github.com/fmasterpro27/FunKitPy/issues
+
+PyPI:
+https://pypi.org/project/funkitpy/
 
 ---
 
 ## License
 
-This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
+Licensed under the Apache License 2.0.
