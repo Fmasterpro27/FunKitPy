@@ -2,13 +2,17 @@ import argparse
 
 from .jokes import joke, dad_joke
 from .roasts import roast
-from .version import __version__
+from .quotes import quote
+from importlib.metadata import version
+
+
+__version__ = version("FunKitPy")
 
 
 def main():
     parser = argparse.ArgumentParser(
         prog="funkit",
-        description="FunKitPy - Random jokes, dad jokes and roasts",
+        description="FunKitPy - Random jokes, dad jokes, quotes and roasts",
     )
 
     parser.add_argument(
@@ -40,6 +44,11 @@ def main():
     )
 
     subparsers.add_parser(
+        "quote",
+        help="Get a random quote",
+    )
+
+    subparsers.add_parser(
         "commands",
         help="List all available commands",
     )
@@ -59,6 +68,9 @@ def main():
     elif args.command == "roast":
         print(roast())
 
+    elif args.command == "quote":
+        print(quote())
+
     elif args.command == "commands":
         print("""
 Available Commands:
@@ -66,6 +78,7 @@ Available Commands:
   joke         Get a random joke
   dad-joke     Get a random dad joke
   roast        Get a random roast
+  quote        Get a random quote
   commands     Show all commands
 
 Flags:
@@ -78,6 +91,7 @@ Examples:
   funkit joke
   funkit dad-joke
   funkit roast
+  funkit quote
   funkit -v
 """)
 
