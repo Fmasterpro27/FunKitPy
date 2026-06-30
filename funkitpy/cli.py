@@ -3,6 +3,7 @@ import argparse
 from .jokes import joke, dad_joke
 from .roasts import roast
 from .quotes import quote
+from .advices import advice
 from importlib.metadata import version
 
 
@@ -49,6 +50,11 @@ def main():
     )
 
     subparsers.add_parser(
+        "advice",
+        help="Get a random advice",
+    )
+
+    subparsers.add_parser(
         "commands",
         help="List all available commands",
     )
@@ -71,6 +77,9 @@ def main():
     elif args.command == "quote":
         print(quote())
 
+    elif args.command == "advice":
+        print(advice())
+
     elif args.command == "commands":
         print("""
 Available Commands:
@@ -79,6 +88,7 @@ Available Commands:
   dad-joke     Get a random dad joke
   roast        Get a random roast
   quote        Get a random quote
+  advice       Get a random advice
   commands     Show all commands
 
 Flags:
@@ -92,6 +102,7 @@ Examples:
   funkit dad-joke
   funkit roast
   funkit quote
+  funkit advice
   funkit -v
 """)
 

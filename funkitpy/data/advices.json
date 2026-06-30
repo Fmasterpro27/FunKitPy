@@ -1,0 +1,402 @@
+[
+    {
+        "id": 1,
+        "advice": "Visitors are like fish: As much as you might like them, after three days they start to smell."
+    },
+    {
+        "id": 2,
+        "advice": "You will always regret the round of Tequila."
+    },
+    {
+        "id": 3,
+        "advice": "The sun always shines above the clouds."
+    },
+    {
+        "id": 4,
+        "advice": "When hugging, hug with both arms and apply reasonable, affectionate pressure."
+    },
+    {
+        "id": 5,
+        "advice": "Big things have small beginnings."
+    },
+    {
+        "id": 6,
+        "advice": "Never write in an email to someone, something which you wouldn't say to that person's face."
+    },
+    {
+        "id": 7,
+        "advice": "You don't need to floss all of your teeth. Only the ones you want to keep."
+    },
+    {
+        "id": 8,
+        "advice": "Don't give a speech. Put on a show."
+    },
+    {
+        "id": 9,
+        "advice": "Gratitude is said to be the secret to happiness."
+    },
+    {
+        "id": 10,
+        "advice": "Being kind is more rewarding than being right."
+    },
+    {
+        "id": 11,
+        "advice": "If you have grandparents or parents - Talk to them more. Ask them about their life experiences."
+    },
+    {
+        "id": 12,
+        "advice": "If you get stuck, try doing the opposite of what the solution requires."
+    },
+    {
+        "id": 13,
+        "advice": "Work is never as important as you think it is."
+    },
+    {
+        "id": 14,
+        "advice": "It always seems impossible, until it's done."
+    },
+    {
+        "id": 15,
+        "advice": "When painting a room, preparation is key. The actual painting should account for about 40% of the work."
+    },
+    {
+        "id": 16,
+        "advice": "Don't always rely on your comforts."
+    },
+    {
+        "id": 17,
+        "advice": "Never regret. If it's good, it's wonderful. If it's bad, it's experience."
+    },
+    {
+        "id": 18,
+        "advice": "If you don't like the opinion you've been given, get another one."
+    },
+    {
+        "id": 19,
+        "advice": "Always seek out advice or opinions when making a decision."
+    },
+    {
+        "id": 20,
+        "advice": "If you've nothing nice to say, say nothing."
+    },
+    {
+        "id": 21,
+        "advice": "You can have too much of a good thing."
+    },
+    {
+        "id": 22,
+        "advice": "Life can be a lot more interesting inside your head."
+    },
+    {
+        "id": 23,
+        "advice": "What's stopping you?"
+    },
+    {
+        "id": 24,
+        "advice": "Step 1. Give a shit. Step 2. Don't be a dick. Step 3. Know when to let go."
+    },
+    {
+        "id": 25,
+        "advice": "Age is of no importance, unless you are a cheese."
+    },
+    {
+        "id": 26,
+        "advice": "Everyone has their down days. Don't take it out on innocent bystanders."
+    },
+    {
+        "id": 27,
+        "advice": "Don't judge a book by its cover, unless it has a synopsis on the back."
+    },
+    {
+        "id": 28,
+        "advice": "When faced with a choice, do both."
+    },
+    {
+        "id": 29,
+        "advice": "Learn to handle criticism."
+    },
+    {
+        "id": 30,
+        "advice": "No one knows anyone else in the way you do."
+    },
+    {
+        "id": 31,
+        "advice": "Always the burrito."
+    },
+    {
+        "id": 32,
+        "advice": "The more ideas that you give away, the more ideas that will come to you."
+    },
+    {
+        "id": 33,
+        "advice": "Identify sources of happiness."
+    },
+    {
+        "id": 34,
+        "advice": "Don't take it personally."
+    },
+    {
+        "id": 35,
+        "advice": "When you're at a concert or event, enjoy the moment, enjoy being there. Try leaving your camera in your pocket."
+    },
+    {
+        "id": 36,
+        "advice": "As you get older, learn never to trust a fart."
+    },
+    {
+        "id": 37,
+        "advice": "Some people would be better off if they took their own advice."
+    },
+    {
+        "id": 38,
+        "advice": "Opinions are like arseholes, everyone has one."
+    },
+    {
+        "id": 39,
+        "advice": "A common regret in life is wishing one hadn't worked so hard."
+    },
+    {
+        "id": 40,
+        "advice": "As things get closer to the light, the shadows get darker."
+    },
+    {
+        "id": 41,
+        "advice": "When you're looking up at birds flying overhead, keep your mouth closed."
+    },
+    {
+        "id": 42,
+        "advice": "If you want to be happily married, marry a happy person."
+    },
+    {
+        "id": 43,
+        "advice": "For every complex problem there is an answer that is clear, simple, and wrong."
+    },
+    {
+        "id": 44,
+        "advice": "Never run with scissors."
+    },
+    {
+        "id": 45,
+        "advice": "Don't feed Mogwais after midnight."
+    },
+    {
+        "id": 46,
+        "advice": "Lemon and salt works wonders on tarnished brass."
+    },
+    {
+        "id": 47,
+        "advice": "It's wrong to be right."
+    },
+    {
+        "id": 48,
+        "advice": "Sing in the shower."
+    },
+    {
+        "id": 49,
+        "advice": "Accept advice."
+    },
+    {
+        "id": 50,
+        "advice": "Look people in the eye."
+    },
+    {
+        "id": 51,
+        "advice": "Once you find a really good friend don't do anything that could mess up your friendship."
+    },
+    {
+        "id": 52,
+        "advice": "Remedy tickly coughs with a drink of honey, lemon and water as hot as you can take."
+    },
+    {
+        "id": 53,
+        "advice": "The number of vampires in the average home, is directly proportional to the amount of garlic bread in the fridge."
+    },
+    {
+        "id": 54,
+        "advice": "One of the top five regrets people have is that they didn't have the courage to be their true self."
+    },
+    {
+        "id": 55,
+        "advice": "If you find yourself distressed about something, ask yourself if it will still matter tomorrow or next week or next month."
+    },
+    {
+        "id": 56,
+        "advice": "To cleanly remove the seed from an Avocado, lay a knife firmly across it, and twist."
+    },
+    {
+        "id": 57,
+        "advice": "Only those who attempt the impossible can achieve the absurd."
+    },
+    {
+        "id": 58,
+        "advice": "Keep it simple."
+    },
+    {
+        "id": 59,
+        "advice": "The quieter you become, the more you can hear."
+    },
+    {
+        "id": 60,
+        "advice": "If you can't do anything about it, there's no point in worrying about it."
+    },
+    {
+        "id": 61,
+        "advice": "Respect other people's opinions, even when they differ from your own."
+    },
+    {
+        "id": 62,
+        "advice": "One of the single best things about being an adult, is being able to buy as much LEGO as you want."
+    },
+    {
+        "id": 63,
+        "advice": "When something goes wrong in life, just shout \"plot twist!\" and carry on."
+    },
+    {
+        "id": 64,
+        "advice": "If it ain't broke don't fix it."
+    },
+    {
+        "id": 65,
+        "advice": "A common regret in life is wishing one had the courage to be ones true self."
+    },
+    {
+        "id": 66,
+        "advice": "If you're feeling tired or anxious, a pint of water will almost always make you feel better."
+    },
+    {
+        "id": 67,
+        "advice": "If you think your headphones are dying, check the socket for fluff with a straightened paperclip."
+    },
+    {
+        "id": 68,
+        "advice": "Pedantry is fine, unless you're on the receiving end. And not a pedant."
+    },
+    {
+        "id": 69,
+        "advice": "Enjoy a little nonsense now and then."
+    },
+    {
+        "id": 70,
+        "advice": "Do not seek praise, seek criticism."
+    },
+    {
+        "id": 71,
+        "advice": "Don't let the bastards grind you down."
+    },
+    {
+        "id": 72,
+        "advice": "Fail. Fail again. Fail better."
+    },
+    {
+        "id": 73,
+        "advice": "Vinegar is a powerful cleaning agent."
+    },
+    {
+        "id": 74,
+        "advice": "Once in a while, eat some sweets you used to enjoy when you were younger."
+    },
+    {
+        "id": 75,
+        "advice": "It's not about who likes you, it's about who you like."
+    },
+    {
+        "id": 76,
+        "advice": "Stop procrastinating."
+    },
+    {
+        "id": 77,
+        "advice": "Don't burn bridges."
+    },
+    {
+        "id": 78,
+        "advice": "One of the top five regrets people have is that they didn't stay in contact with friends."
+    },
+    {
+        "id": 79,
+        "advice": "Good advice is something a man gives when he is too old to set a bad example."
+    },
+    {
+        "id": 80,
+        "advice": "It's unlucky to be superstitious."
+    },
+    {
+        "id": 81,
+        "advice": "Don't give to others advice which you wouldn't follow."
+    },
+    {
+        "id": 82,
+        "advice": "Don't eat non-snow-coloured snow."
+    },
+    {
+        "id": 83,
+        "advice": "Alway do anything for love, but don't do that."
+    },
+    {
+        "id": 84,
+        "advice": "Try using an old idea."
+    },
+    {
+        "id": 85,
+        "advice": "True happiness always resides in the quest."
+    },
+    {
+        "id": 86,
+        "advice": "If you think nobody cares if you're alive, try missing a few payments."
+    },
+    {
+        "id": 87,
+        "advice": "If your hair is thinning, try dying your hair a similar tone to your scalp."
+    },
+    {
+        "id": 88,
+        "advice": "Most things are not as bad as you think they are."
+    },
+    {
+        "id": 89,
+        "advice": "Tell it like it is."
+    },
+    {
+        "id": 90,
+        "advice": "Don't assume anything is possible or impossible until you've asked the people who will be doing the work."
+    },
+    {
+        "id": 91,
+        "advice": "Life is better when you sing about bananas."
+    },
+    {
+        "id": 92,
+        "advice": "Never pay full price for a sofa at DFS."
+    },
+    {
+        "id": 93,
+        "advice": "Some of life's best lessons are learnt at the worst times."
+    },
+    {
+        "id": 94,
+        "advice": "Try going commando to an important meeting, NB: don't wear a skirt."
+    },
+    {
+        "id": 95,
+        "advice": "Why wait until valentines day for a romantic gesture?"
+    },
+    {
+        "id": 96,
+        "advice": "Do a bit more for your friends."
+    },
+    {
+        "id": 97,
+        "advice": "YOLO"
+    },
+    {
+        "id": 98,
+        "advice": "Mercy is the better part of justice."
+    },
+    {
+        "id": 99,
+        "advice": "Respect your elders."
+    },
+    {
+        "id": 100,
+        "advice": "Don't cross the streams."
+    }
+]

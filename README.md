@@ -14,7 +14,7 @@
 - 👨 Dad jokes
 - 🔥 Roasts
 - 💬 Inspirational quotes
-- 📚 Includes **5,421+ quotes**
+- 📚 Includes **5,521+ quotes**
 - 💻 Command Line Interface (CLI)
 - 📦 Zero dependencies
 - ⚡ Fast & lightweight
@@ -33,12 +33,13 @@ pip install FunKitPy
 ## Quick Start
 
 ```python
-from funkitpy import joke, dad_joke, roast, quote
+from funkitpy import joke, dad_joke, roast, quote, advice
 
 print(joke())
 print(dad_joke())
 print(roast())
 print(quote())
+print(advice())
 ```
 
 ---
@@ -77,6 +78,14 @@ from funkitpy import quote
 print(quote())
 ```
 
+### Advice
+
+```python
+from funkitpy import advice
+
+print(advice())
+```
+
 ### Quote Data
 
 Returns the raw quote dictionary.
@@ -107,7 +116,8 @@ from funkitpy import (
     get_joke,
     get_dad_joke,
     get_roast,
-    get_quote
+    get_quote,
+    get_advice
 )
 ```
 
@@ -118,6 +128,7 @@ joke()
 dad_joke()
 roast()
 quote()
+advice()
 ```
 
 ---
@@ -150,6 +161,12 @@ funkit roast
 funkit quote
 ```
 
+### Advice
+
+```bash
+funkit advice
+```
+
 ### Show Version
 
 ```bash
@@ -171,6 +188,7 @@ joke
 dad-joke
 roast
 quote
+advice
 ```
 
 ---
@@ -200,12 +218,14 @@ Because they make up everything.
 funkitpy/
 ├── funkitpy/
 │   ├── __init__.py
+│   ├── advices.py
 │   ├── jokes.py
 │   ├── roasts.py
 │   ├── quotes.py
 │   ├── cli.py
 │   ├── version.py
 │   └── data/
+│       ├── advices.json
 │       ├── jokes.json
 │       ├── dad_jokes.json
 │       ├── roasts.json
@@ -230,17 +250,6 @@ funkitpy/
 
 ---
 
-## Contributing
-
-Contributions, bug reports, and feature requests are welcome.
-
-1. Fork the repository
-2. Create a branch
-3. Make your changes
-4. Submit a pull request
-
----
-
 ## Links
 
 Homepage:
@@ -253,7 +262,7 @@ https://github.com/fmasterpro27/FunKitPy/issues
 
 PyPI:
 
-https://pypi.org/project/funkitpy/
+https://pypi.org/project/FunKitPy/
 
 ---
 
